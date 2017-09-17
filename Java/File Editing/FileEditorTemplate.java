@@ -22,6 +22,7 @@ public class FileFixer_Template
 
 	public static void init()
 	{
+		lines = new ArrayList<String>();
 		try
 		{
 			br = new BufferedReader(new FileReader(filename));
